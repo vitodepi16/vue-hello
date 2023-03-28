@@ -13,9 +13,13 @@
 <body>
 
 
-    <div id="app"> 
-      <h1 :class="miaclasse" @click="changecolor"> {{titolo}}</h1>
-      <img :src="image" alt="">
+    <div id="app" > 
+        <h1 :class="miaclasse" @click="changecolor"> {{titolo}}</h1>
+        <div :class="classContainer"> 
+            
+            <img :src="image" alt="">
+        </div>
+   
     </div>
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
